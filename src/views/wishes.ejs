@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Diwali</title>
+    <link rel="icon" type="image/png" href="/images/image1.png" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <script src="/js/bootstrap.min.js"></script> -->
+    <script defer src="/js/script.js"></script>
+
+
+    <meta property="og:url" content="🎆Verified" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Your friend send you a gift" />
+    <meta property="og:description" content="Happy Diwali" />
+    <meta property="og:image" content="/images/image1.png" />
+
+</head>
+
+<!-- style="background-image:url(https://thumbs.gfycat.com/SeveralPresentBass-size_restricted.gif);" -->
+
+<body class="text-white">
+
+
+    <center>
+        <h1 id="text1"
+            style="  font-size: 50px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"
+            onclick="text()" class="wishText">Click Me</h1>
+    </center>
+
+    <div id="wishCont" class="hide">
+        
+
+        <div class="mt-5">
+            <center>
+                <!-- <h1 class="wishText">Hi</h1> -->
+
+                <!-- <h1 style=" font-size: 50px; font-family:'Times New Roman', Times, serif" class="wishText"><%=wish.wname%></h1> -->
+                <br>
+                <h1 style=" font-size: 50px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"
+                    class="wishText"><%=wish.uname.toUpperCase()%></h1>
+
+                <script>
+                    function text() {
+                        document.getElementById("wishCont").classList.remove("hide");
+                        document.getElementById("text1").setAttribute("class", "hide");
+                    }
+                </script>
+
+                <br>
+                <h2 class="wishText"> Wish You</h2>
+                <img class="mt-5" src="/images/image2.png" alt="">
+
+                <a href="/" type="button" style="width: 90%;" class="btn btn-warning btn-lg mt-5 mx-2">Create a wish for
+                    your friend</a>
+
+                  
+            </center>
+
+        </div>
+
+
+
+
+        
+
+        
+
+
+        <!-- <iframe src="/images/a1.mp3" allow="autoplay"></iframe> -->
+
+        <img src="" alt="">
+        <img style="position: fixed;right:0;bottom:0; height: 100px;"
+            src="https://thumbs.gfycat.com/SeveralPresentBass-size_restricted.gif" alt="">
+        <img style="position: fixed;left:0;bottom:0; height: 100px;"
+            src="https://thumbs.gfycat.com/SeveralPresentBass-size_restricted.gif" alt="">
+
+    </div>
+</body>
+
+</html>
