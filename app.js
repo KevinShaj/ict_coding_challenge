@@ -111,7 +111,7 @@ app.get('/send/:id', (req, res) => {
     from: 'kevinshaj98@gmail.com',
     to: wish.email,
     subject: 'Happy Diwali '+ wish.wname,
-    text:'Hi '+ wish.wname+ ','+wish.uname+' send you  diwali wishes check it.     👉🏻👉🏻     '+'https://diwali2021.herokuapp.com/wish/'+wish._id
+    text:'Hi '+ wish.wname+ ','+wish.uname+' send you  diwali wishes check it.     👉🏻👉🏻     '+'https://diwali-ict.herokuapp.com/wish/'+wish._id
 
   };
   
